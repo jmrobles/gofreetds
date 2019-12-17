@@ -44,7 +44,7 @@ import (
   dbmsghandle(msg_handler);
   DBSETLUSER(login, username);
   DBSETLPWD(login, password);
-  dbsetlname(login, "UTF-8", DBSETCHARSET);
+  dbsetlname(login, "ISO-8859-1", DBSETCHARSET);
  }
 
  static void my_dblogin_setdb(LOGINREC* login, char* dbname) {
