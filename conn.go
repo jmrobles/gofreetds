@@ -52,7 +52,7 @@ import (
  }
 
  static void my_setlversion(LOGINREC* login) {
-  dbsetlversion(login, DBVERSION_72);
+  dbsetlversion(login, DBVERSION_74);
  }
 
  static long dbproc_addr(DBPROCESS * dbproc) {
